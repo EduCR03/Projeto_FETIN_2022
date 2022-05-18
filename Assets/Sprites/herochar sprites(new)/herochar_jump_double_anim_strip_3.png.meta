@@ -33,6 +33,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -184,6 +185,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      herochar_jump_double_anim_strip_3_1: -1582698350390390843
+      herochar_jump_double_anim_strip_3_0: 4237889551830391601
+      herochar_jump_double_anim_strip_3_2: -4370406797760678395
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

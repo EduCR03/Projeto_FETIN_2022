@@ -36,6 +36,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -208,6 +209,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      herochar_idle_anim_strip_4_1: 405284731805963245
+      herochar_idle_anim_strip_4_3: 7479925196342730779
+      herochar_idle_anim_strip_4_2: -1624975481447532243
+      herochar_idle_anim_strip_4_0: -4099418257374492983
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

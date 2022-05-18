@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -256,6 +257,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      goblin_death_anim_strip_6_1: 6609010165032081395
+      goblin_death_anim_strip_6_4: 8719512955547665468
+      goblin_death_anim_strip_6_5: 9150244453583381336
+      goblin_death_anim_strip_6_2: -6310726310726893129
+      goblin_death_anim_strip_6_0: -4454485551354414918
+      goblin_death_anim_strip_6_3: 4082702644063675630
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

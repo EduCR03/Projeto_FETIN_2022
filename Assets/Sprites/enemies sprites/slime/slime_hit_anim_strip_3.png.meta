@@ -33,6 +33,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -184,6 +185,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      slime_hit_anim_strip_3_1: -2615309591851497
+      slime_hit_anim_strip_3_0: 5700571365488146070
+      slime_hit_anim_strip_3_2: -9085390894938971011
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -36,6 +36,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -208,6 +209,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      goblin_attack_anim_strip_4_0: -1419938988753322111
+      goblin_attack_anim_strip_4_3: 7794331006894111819
+      goblin_attack_anim_strip_4_2: -4399571278975291826
+      goblin_attack_anim_strip_4_1: 4520123806859305378
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

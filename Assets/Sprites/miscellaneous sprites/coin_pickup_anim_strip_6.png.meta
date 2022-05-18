@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -244,6 +245,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      coin_pickup_anim_strip_6_1: -679227021632654480
+      coin_pickup_anim_strip_6_3: -4911090849469897614
+      coin_pickup_anim_strip_6_0: -8085032188382512298
+      coin_pickup_anim_strip_6_2: 2364531806408166509
+      coin_pickup_anim_strip_6_4: -219306034624907966
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

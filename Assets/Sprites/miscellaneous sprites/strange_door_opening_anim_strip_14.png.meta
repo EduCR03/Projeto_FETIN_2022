@@ -63,6 +63,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -436,6 +437,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      strange_door_opening_anim_strip_14_0: 347451276584246300
+      strange_door_opening_anim_strip_14_6: -302128725182431008
+      strange_door_opening_anim_strip_14_11: -6197634539926759144
+      strange_door_opening_anim_strip_14_7: 4300021848910839685
+      strange_door_opening_anim_strip_14_9: -391202845247089702
+      strange_door_opening_anim_strip_14_3: -2650451347613823636
+      strange_door_opening_anim_strip_14_8: 6099008848845824659
+      strange_door_opening_anim_strip_14_4: -5287527108188383539
+      strange_door_opening_anim_strip_14_10: 4334372896824091752
+      strange_door_opening_anim_strip_14_12: -8140173966147065108
+      strange_door_opening_anim_strip_14_1: -4249389619412451124
+      strange_door_opening_anim_strip_14_5: 1496916291704373965
+      strange_door_opening_anim_strip_14_2: 6938579174742508395
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
