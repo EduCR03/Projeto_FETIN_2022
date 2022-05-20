@@ -7,6 +7,9 @@ public class Player : MonoBehaviour
     private Rigidbody2D rigPlayer; // Referenciando o RigidDbody2D
     public int speed;
     public int jumpForce;
+    
+    private bool Jumping; //variavel p/ pulando
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +23,7 @@ public class Player : MonoBehaviour
         Jump();
     }
 
+    //movimento
     void Move()
     {
         // retornando -1 esquerda, 1 direita
@@ -27,15 +31,46 @@ public class Player : MonoBehaviour
         // Mudando a velocidade de acordo com o valor de movement 
         rigPlayer.velocity = new Vector2(movement * speed, rigPlayer.velocity.y);
 
+        if(movement > 0)
+        {
+            //personagem virado pra direita
+            transform.eulerAngles = new Vector3(0, 0, 0);
+        }
+        if(movement < 0)
+        {
+            //personagem virado pra esquerda
+            transform.eulerAngles = new(0, 180, 0);
+        }
+
 
     }
 
+    //pulo
     void Jump()
     {
         if(Input.GetButtonDown("Jump"))
         {
-            rigPlayer.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            if(!Jumping)
+            {
+                //fazendo o personagem pular de acordo com o valor da "jumpForce"
+                rigPlayer.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);  
+                
+                Jumping = true; //está pulando
+
+            }
+
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D structureColl)
+    {
+        if(structureColl.gameObject.layer == 6) //se houver a colisão
+        {
+            Jumping = false; //o personagem pode pular
+        }
+    }
+
+
+
 
 }
